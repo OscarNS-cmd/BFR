@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad)" />
+  <rect x="24" y="24" width="464" height="464" rx="80" fill="none" stroke="#f59e0b" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Grimoire Book Base -->
+  <path d="M128 112 C128 96 144 80 160 80 L352 80 C368 80 384 96 384 112 L384 400 C384 416 368 432 352 432 L160 432 C144 432 128 416 128 400 Z" fill="#292524" stroke="url(#goldGrad)" stroke-width="12" />
+  
+  <!-- Spine and Book Accents -->
+  <path d="M168 80 L168 432" stroke="#f59e0b" stroke-width="8" stroke-dasharray="8 8" />
+  <rect x="136" y="140" width="24" height="6" fill="#f59e0b" rx="3" />
+  <rect x="136" y="253" width="24" height="6" fill="#f59e0b" rx="3" />
+  <rect x="136" y="366" width="24" height="6" fill="#f59e0b" rx="3" />
+
+  <!-- Central Mystic Seal / Star -->
+  <circle cx="276" cy="256" r="64" fill="none" stroke="url(#goldGrad)" stroke-width="6" />
+  <circle cx="276" cy="256" r="48" fill="#1c1917" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.6" />
+  
+  <!-- Diamond rune in center -->
+  <polygon points="276,216 306,256 276,296 246,256" fill="url(#goldGrad)" />
+  
+  <!-- Quill Feather overlay -->
+  <path d="M340 120 C360 80 400 60 420 60 C420 80 400 120 370 150 L290 270 C285 278 275 280 270 275 C265 270 267 260 275 255 Z" fill="#fbbf24" opacity="0.9" />
+</svg>

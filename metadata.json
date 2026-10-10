@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Grimorio - Worldbuilding \u0026 Lore Studio",
+  "description": "Aplicación para Android de organización integral del lore, worldbuilding, historias, personajes, bestiario y líneas temporales 100% offline con Kotlin y Android SDK.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
